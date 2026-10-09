@@ -26,15 +26,13 @@ def split_into_sentences(text):
     # TODO [Task 1]: Return a list of sentences. Do not split after abbreviations such as "Mr.".
     raise NotImplementedError
 
-
-def tokenise(text):
-    # TODO [Task 2]: Return a list of lowercase tokens.
-    raise NotImplementedError
-
-
 def save_sentences(sentences, path):
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(sentences) + "\n")
+        
+def tokenise(text):
+    # TODO [Task 2]: Return a list of lowercase tokens.
+    raise NotImplementedError
 
 
 def load_sentences(path):
