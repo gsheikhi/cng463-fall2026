@@ -1,6 +1,6 @@
 # Assignment 1: A small language pipeline
 
-CNG463 Introduction to NLP, Fall 2026. Due at the end of Week 5.
+CNG463 Introduction to NLP, Fall 2026. Due 31/10/2026 11:59 p.m. Cyprus Time.
 
 You turn a book PDF into a corpus, then build a tokeniser, byte-pair encoding and n-gram language models. The tasks, marks, rules and submission steps are in `assignment1.ipynb`. This file explains the setup only.
 
