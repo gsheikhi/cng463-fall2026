@@ -6,7 +6,7 @@ You turn a book PDF into a corpus, then build a tokeniser, byte-pair encoding an
 
 ## Files
 
-`assignment1.ipynb` is the notebook you run and submit. `src/` holds the functions you implement. `text.py` covers the corpus, tokenisation and data split, `bpe.py` covers byte-pair encoding and `lm.py` covers the language models. Put your PDF in `data/`. The notebook writes your sentences to `data/corpus.txt`.
+`assignment1.ipynb` is the notebook you run. `src/` holds the functions you implement. `text.py` covers the corpus, tokenisation and data split, `bpe.py` covers byte-pair encoding and `lm.py` covers the language models. Put your PDF in `data/`. The notebook writes your sentences to `data/corpus.txt`.
 
 ## Running locally in VS Code
 
