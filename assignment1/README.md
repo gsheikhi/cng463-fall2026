@@ -1,19 +1,19 @@
 # Assignment 1: A small language pipeline
 
-Due 31 Oct 2026 before midnight, Cyprus time.
+CNG463 Introduction to NLP, Fall 2026. Due at the end of Week 5.
 
-You turn a book PDF into a corpus, then build a tokeniser, byte-pair encoding and n-gram language models. 
+You turn a book PDF into a corpus, then build a tokeniser, byte-pair encoding and n-gram language models. The tasks, marks, rules and submission steps are in `assignment1.ipynb`. This file explains the setup only.
 
 ## Files
 
-`assignment1.ipynb` is the notebook you run. `src/` holds the functions you implement: `text.py` covers the corpus, tokenisation and data split, `bpe.py` covers byte-pair encoding and `lm.py` covers the language models. Put your PDF in `data/`. The notebook writes your sentences to `data/corpus.txt`.
+`assignment1.ipynb` is the notebook you run and submit. `src/` holds the functions you implement. `text.py` covers the corpus, tokenisation and data split, `bpe.py` covers byte-pair encoding and `lm.py` covers the language models. Put your PDF in `data/`. The notebook writes your sentences to `data/corpus.txt`.
 
 ## Running locally in VS Code
 
 Install Python 3.10 or later and Git, then run these commands in a terminal.
 
 ```
-git clone https://github.com/gsheikhi/cng463-fall2026.git
+git clone https://github.com/<organisation>/cng463-assignments.git
 cd cng463-assignments/assignment1
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -30,16 +30,11 @@ Colab deletes its files when a session ends, so keep your copy in Google Drive. 
 from google.colab import drive
 drive.mount("/content/drive")
 %cd /content/drive/MyDrive
-!git clone https://github.com/gsheikhi/cng463-fall2026.git
+!git clone https://github.com/<organisation>/cng463-assignments.git
 ```
 
 Then open `cng463-assignments/assignment1/assignment1.ipynb` from Drive. Its setup cell mounts Drive and installs the requirements in each session. Open the files in `src/` from the Colab file browser to edit them. Your changes are saved to Drive.
 
+## Choosing a book
 
-## Rules
-
-Use only the Python standard library, NumPy, pandas, Matplotlib and `pypdf`. Part II of Duo Quiz 1 asks about your own submission and multiplies your mark for this assignment.
-
-## Submission
-
-Restart the kernel, run all cells and save the notebook with its outputs. Zip the `assignment1` folder with `src/`, your PDF and `data/corpus.txt`, leaving out `.venv`. Upload the ZIP to the course platform. Late submissions follow the syllabus.
+Use a PDF with a text layer. If you cannot select its text in a PDF viewer, it will not work. Public-domain or openly licensed books are the safest choice, for example from Project Gutenberg, Wikisource or the Internet Archive. If a site offers only HTML or EPUB, print the book to PDF. You may use a book under copyright that you own, but never push it to a public repository. Choose a page range with 5,000 to 50,000 words and at least 200 sentences.
