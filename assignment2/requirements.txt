@@ -1,0 +1,9 @@
+torch
+transformers==4.56.2
+trl==0.23.0
+datasets==4.0.0
+accelerate>=1.0
+seqeval==1.2.2
+pandas>=2.0
+ipykernel
+matplotlib
