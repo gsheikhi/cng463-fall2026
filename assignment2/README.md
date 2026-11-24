@@ -1,6 +1,6 @@
 # Assignment 2: Encoders, and decoders
 
-CNG463 Introduction to NLP, Fall 2026. Due DD/MM/2026 11:59 p.m. Cyprus Time.
+CNG463 Introduction to NLP, Fall 2026. Due 12/11/2026 11:59 p.m. Cyprus Time.
 
 The tasks, marks, rules and submission steps are in `assignment2.ipynb`. This file explains the setup only and it is in a similar format to Assignment 1.
 
